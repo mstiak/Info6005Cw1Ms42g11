@@ -1,0 +1,10 @@
+Package: cw1-6005-ms42g11
+Version: 1.0
+Architecture: all
+Maintainer: Michael Steiakakis <ms42g11@ecs.soton.ac.uk>
+Installed-Size: 76
+Section: web
+Priority: extra
+Homepage: https://github.com/mstiak/Info6005Cw1Ms42g11
+Description: Debian package.
+ This is an example of simple demian packaging for course Info6005.It is a simple Rss reader that reads the latest news.

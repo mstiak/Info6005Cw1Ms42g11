@@ -1,0 +1,13 @@
+Source: cw1-6005-ms42g11
+Section: web
+Priority: extra
+Maintainer: Michael Steiakakis <ms42g11@ecs.soton.ac.uk>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://github.com/mstiak/Info6005Cw1Ms42g11
+
+Package: cw1-6005-ms42g11
+Architecture: all
+Depends: ${misc:Depends}
+Description: Debian package. 
+ This is an example of simple demian packaging for course Info6005.It is a simple Rss reader that reads the latest news.
