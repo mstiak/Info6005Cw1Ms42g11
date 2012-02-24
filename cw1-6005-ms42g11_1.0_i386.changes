@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 23 Feb 2012 14:52:21 +0000
+Source: cw1-6005-ms42g11
+Binary: cw1-6005-ms42g11
+Architecture: source all
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: Michael Steiakakis <ms42g11@ecs.soton.ac.uk>
+Changed-By: mstiak <ms42g11@ecs.soton.ac.uk>
+Description: 
+ cw1-6005-ms42g11 - Debian package.
+Changes: 
+ cw1-6005-ms42g11 (1.0) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ a9d5b7c781e5d702c7d5f752b5dba27ca7e5725b 547 cw1-6005-ms42g11_1.0.dsc
+ 4aba9bc21d926a512ed3a402e905c199550311c3 5482 cw1-6005-ms42g11_1.0.tar.gz
+ 337a3028851395209130dd21285f95920f46f291 6328 cw1-6005-ms42g11_1.0_all.deb
+Checksums-Sha256: 
+ 45f2a36e2fb6caa2e7ba9b71d4c6c6d3142bdf1f54207fa331644692a03fee8e 547 cw1-6005-ms42g11_1.0.dsc
+ 25232bd65571088fd12a637570aaef855cd955df98dc95594693f197cc5e1025 5482 cw1-6005-ms42g11_1.0.tar.gz
+ 9497f01f4b74d89b33ea95327614d31861393c0246949ef629550c3476804043 6328 cw1-6005-ms42g11_1.0_all.deb
+Files: 
+ c88f2fffa78abcf9c662cdde72d5fc6d 547 web extra cw1-6005-ms42g11_1.0.dsc
+ d7fd349622c613dcd5387df5f87a1324 5482 web extra cw1-6005-ms42g11_1.0.tar.gz
+ 3bddacacb226d8e6bf4f5357ad1bdc10 6328 web extra cw1-6005-ms42g11_1.0_all.deb
