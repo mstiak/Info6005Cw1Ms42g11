@@ -1,0 +1,48 @@
+Frst part of the coursework for INFO6005 module.
+
+It is a simple Rss feed reader. User can execute the applications via command line
+
+INSTALL:
+    -sudo dpkg -i --force-depends cw1-6005-pp6g11_1.0-1_all.deb (dependencies will be installed)
+
+EXECUTION:
+You can execute the application via command line 
+
+    -via command line:
+        Type news in command line. The script will show the rss feed from the bbc web site. You have the choice to add your own URLs:
+        --feeds feed1, feed2, feed3
+            list of URLs
+        --items n
+            number of items to read
+    
+
+MANUAL:
+You can view the manual that comes with the package by typing:
+    man news
+
+All the files are located in the /usr/share/cw1-6005-ms42g11/ directory.
+
+
+In this section I will briefly describe the proccess in order to create my package. 
+
+1. Source files were downloaded from 
+https://github.com/info6005/6005_cw1_2012. 
+
+2.I created a new directory for these files and i typed dh_make –e pp6g11@soton.ac.uk –s ‐‐native ‐‐indep 
+in order to create the required directory hierarchy. 
+3.Then i modified the following files under the debian folder: 
+I.
+Control 
+II.
+Copyright 
+III.
+Changelog 
+Also i created the cw1-6005-ms42g11.install where i wrote the paths where the index.php, rss_php.php, feeds.conf and news files will be stored after the instalation.  
+ 
+4.The package comes with a man page. The user therefore, can type man news and 
+see the man pages of the package. To do that I created the cw1-6005-ms42g11.manpages file that points to the news.1 script where the man pages are. 
+5. Finally, in the same directory I typed fakeroot dpkg-buildpackage so as to create the package.  
+ 
+
+
+
